@@ -10,8 +10,8 @@ Este archivo nos servirá para estimar, distribuir y hacer seguimiento de todos 
 
 * **Presupuesto Objetivo:** 25.000,00 €
 * **Gasto Estimado Total:** 25.000,00 €
-* **Gasto Real Registrado:** 0,00 €
-* **Diferencia:** 0,00 €
+* **Gasto Asignado/Registrado:** 220,00 € (2 pares Converse personalizadas)
+* **Presupuesto Disponible:** 24.780,00 €
 
 ---
 
@@ -29,8 +29,10 @@ Este archivo nos servirá para estimar, distribuir y hacer seguimiento de todos 
 
 ### 3. Vestuario y Estilismo (Novia y Novio) - ~10%
 * **Presupuesto Estimado:** 2.500,00 €
-* **Gasto Real:** 0,00 €
+* **Gasto Real / Asignado:** 220,00 € (2 pares Converse personalizadas)
 * *Detalles:* Trajes, vestidos, complementos, peluquería y maquillaje.
+* *Partidas detalladas:*
+  * 👟 **2x Converse Custom Chuck Taylor All Star Wedding By You (para el baile/post-comida):** 220,00 € (110,00 €/par) — [Ver en Converse](https://www.converse.com/es/shop/p/custom-chuck-taylor-all-star-wedding-by-you-unisex-zapatillas-low-top/A02249CSP26_black_mr_CO.html?pid=A02249CSP26&dwvar_A02249CSP26_color=black%20mr&styleNo=A02249C&buyrec=false&pdp=true&cgid=Custom%20Wedding%20Shoes#Builder)
 
 ### 4. Decoración y Flores - ~8%
 * **Presupuesto Estimado:** 2.000,00 €
