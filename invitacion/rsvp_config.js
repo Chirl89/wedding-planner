@@ -2,7 +2,7 @@
 const WEDDING_CONFIG = {
   couple: {
     groom: "Carlos Gómez Lázaro",
-    bride: "Andrea de Sousa Cubero",
+    bride: "Andrea De Sousa Cubero",
     shortNames: "Carlos & Andrea"
   },
   date: {
@@ -11,13 +11,6 @@ const WEDDING_CONFIG = {
     season: "Otoño 2027"
   },
   locations: {
-    civil: {
-      title: "Firma Civil",
-      place: "Ayuntamiento de Pepino",
-      address: "Plaza Mayor, 1, Pepino, Toledo",
-      googleMapsUrl: "https://maps.google.com/?q=Ayuntamiento+de+Pepino+Toledo",
-      time: "Por confirmar (Días previos)"
-    },
     celebration: {
       title: "Ceremonia Simbólica & Celebración",
       place: "Finca en Pepino / Talavera de la Reina",
