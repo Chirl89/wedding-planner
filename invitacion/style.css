@@ -65,8 +65,8 @@ body {
   justify-content: center;
   text-align: center;
   padding: 3rem 1.5rem;
-  background: linear-gradient(rgba(44, 37, 35, 0.45), rgba(92, 29, 40, 0.6)),
-              url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+  background: linear-gradient(rgba(44, 37, 35, 0.35), rgba(92, 29, 40, 0.5)),
+              url('portada.jpg') center 25%/cover no-repeat;
   color: #ffffff;
 }
 
