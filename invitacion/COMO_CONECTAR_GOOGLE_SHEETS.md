@@ -22,10 +22,22 @@ Con este método gratuito (Google Apps Script), **todas las respuestas de vuestr
 function doPost(e) {
   try {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    var data = JSON.parse(e.postData.contents);
-    
+    var data = {};
+
+    if (e && e.postData && e.postData.contents) {
+      try {
+        data = JSON.parse(e.postData.contents);
+      } catch (jsonErr) {
+        data = e.parameter || {};
+      }
+    } else if (e && e.parameter) {
+      data = e.parameter;
+    }
+
+    var fechaStr = new Date().toLocaleString("es-ES", { timeZone: "Europe/Madrid" });
+
     sheet.appendRow([
-      data.timestamp || new Date(),
+      data.timestamp || fechaStr,
       data.fullName || "",
       data.attendance || "",
       data.companions || "",
@@ -34,7 +46,7 @@ function doPost(e) {
       data.songRequest || "",
       data.notes || ""
     ]);
-    
+
     return ContentService.createTextOutput(JSON.stringify({ "result": "success" }))
       .setMimeType(ContentService.MimeType.JSON);
   } catch (err) {
@@ -49,15 +61,27 @@ function doPost(e) {
 ---
 
 ### Paso 3: Publicar como Aplicación Web (Obtener la URL Webhook)
-1. Arriba a la derecha, haz clic en el botón azul **Desplegar** > **Nuevo despliegue**.
-2. Haz clic en el icono de engranaje ⚙️ junto a "Seleccionar tipo" y elige **Aplicación Web**.
-3. Configura los campos exactamente así:
+
+> 💡 **En tu pantalla:**
+> - En la **esquina superior derecha** verás el botón azul que dice **`Implementar`** (junto al icono de la flechita hacia abajo `▼`).
+
+1. En la esquina superior derecha, haz clic en el botón azul **`Implementar`**.
+2. En el menú desplegable que se abre, selecciona la primera opción: **`Nuevo despliegue`**.
+3. En la ventana emergente que aparece:
+   - Haz clic en el icono del **Engranaje ⚙️** (junto a "Seleccionar tipo").
+   - Elige **`Aplicación Web`**.
+4. Configura estos 3 campos:
    * **Descripción:** `RSVP Webhook Boda`
-   * **Ejecutar como:** `Yo` (tu cuenta de Google)
-   * **Quién tiene acceso:** `Cualquier persona` (*Esto es fundamental para que el formulario de la web pueda enviar datos sin pedir login a los invitados*).
-4. Haz clic en **Desplegar**.
-5. Autoriza el acceso cuando Google lo pida (Aceptar permisos).
-6. Al finalizar, copia la **URL de la aplicación web** generada (empieza por `https://script.google.com/macros/s/...`).
+   * **Ejecutar como:** `Yo` (`tu-correo@gmail.com`)
+   * **Quién tiene acceso:** **`Cualquier persona`**  
+     *(¡Muy importante! Selecciona "Cualquier persona" para que tus invitados puedan responder desde su móvil sin necesidad de iniciar sesión).*
+5. Haz clic en el botón azul **`Implementar`**.
+6. Google te pedirá **"Autorizar acceso"**:
+   - Haz clic en *Autorizar acceso*.
+   - Elige tu cuenta de Google.
+   - Si te aparece una pantalla de advertencia ("Google no ha verificado esta aplicación"), haz clic en **Configuración avanzada** (abajo a la izquierda) y luego en **Ir a Proyecto sin título (no seguro)**. ¡Es totalmente seguro porque es vuestro propio script!
+   - Pulsa **Permitir**.
+7. Al finalizar, verás una pantalla con la **URL de la aplicación web** (un enlace largo que empieza por `https://script.google.com/macros/s/...`). ¡Copia esa URL!
 
 ---
 

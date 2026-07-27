@@ -90,14 +90,13 @@ function initFormInteractions() {
     // 1. Intentar envío a Webhook (Google Sheets / Formspree) si está configurado
     if (WEDDING_CONFIG.rsvp.webhookUrl && WEDDING_CONFIG.rsvp.webhookUrl.startsWith('http')) {
       try {
-        const response = await fetch(WEDDING_CONFIG.rsvp.webhookUrl, {
+        await fetch(WEDDING_CONFIG.rsvp.webhookUrl, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
           body: JSON.stringify(payload)
         });
-        if (response.ok) {
-          isSuccess = true;
-        }
+        isSuccess = true;
       } catch (err) {
         console.warn("Fallo temporal con Webhook, guardando respaldo...", err);
       }

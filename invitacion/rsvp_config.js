@@ -28,9 +28,8 @@ const WEDDING_CONFIG = {
   },
   // Configuración de recepción de datos RSVP (Google Sheets / Formspree / Webhook API)
   rsvp: {
-    // Reemplaza este URL con tu Webhook de Google Sheets (Google Apps Script), Formspree o Tally.
-    // Ejemplo de Google Apps Script: "https://script.google.com/macros/s/AKfycbx.../exec"
-    webhookUrl: "", 
+    // URL de Google Apps Script proporcionado por el usuario
+    webhookUrl: "https://script.google.com/macros/s/AKfycbwiuxQdcKIj3S_WSDrC_-eewOZLEIHhSvuCy7huTbvnl3FIlmG8K6s4Phy7BLsVJ-Hk/exec", 
     
     // Almacenamiento secundario local para pruebas inmediatas en el navegador
     saveToLocalStorage: true
