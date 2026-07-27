@@ -19,7 +19,7 @@ Esta lista de tareas se irá actualizando a medida que definamos los detalles de
 - [ ] Reservar proveedores clave.
 
 ## 🕒 3-5 Meses Antes
-- [ ] Diseñar y enviar las invitaciones oficiales.
+- [/] Diseñar y enviar las invitaciones oficiales (En proceso: Creando invitación web interactiva con RSVP).
 - [ ] Elegir el menú del catering.
 - [ ] Definir la decoración floral.
 

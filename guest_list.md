@@ -1,6 +1,8 @@
-# 👥 Lista de Invitados (Guest List)
+# 👥 Lista de Invitados (Carlos & Andrea)
 
-Este archivo sirve para llevar el control de los invitados a la boda, sus confirmaciones, requisitos alimenticios y asignación de mesas.
+Este archivo sirve para llevar el control de los invitados a la boda de **Carlos Gómez Lázaro & Andrea de Sousa Cubero** (Octubre 2027), sus confirmaciones, requisitos alimenticios y asignación de mesas.
+
+> 💌 **Invitación Virtual Creada:** Las respuestas del formulario web RSVP se vuelcan automáticamente a Google Sheets / este registro.
 
 ---
 

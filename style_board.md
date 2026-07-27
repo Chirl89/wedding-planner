@@ -1,6 +1,6 @@
 # 🎨 Muro de Estilo e Ideas (Style Board)
 
-Este archivo reúne el concepto visual, la temática y las ideas para vuestra boda en **Octubre de 2027**. 
+Este archivo reúne el concepto visual, la temática y las ideas para la boda de **Carlos Gómez Lázaro & Andrea de Sousa Cubero** en **Octubre de 2027**. 
 
 ---
 
