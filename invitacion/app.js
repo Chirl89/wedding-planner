@@ -43,19 +43,6 @@ function initCountdown() {
  */
 function initFormInteractions() {
   const rsvpForm = document.getElementById('rsvp-form');
-  const attendanceRadios = document.getElementsByName('attendance');
-  const companionsGroup = document.getElementById('companions-group');
-
-  // Mostrar u ocultar campo de acompañantes según la opción seleccionada
-  Array.from(attendanceRadios).forEach(radio => {
-    radio.addEventListener('change', (e) => {
-      if (e.target.value === 'SI') {
-        companionsGroup.style.display = 'block';
-      } else {
-        companionsGroup.style.display = 'none';
-      }
-    });
-  });
 
   // Procesar envío del formulario
   rsvpForm.addEventListener('submit', async (e) => {
@@ -77,7 +64,7 @@ function initFormInteractions() {
       timestamp: new Date().toISOString(),
       fullName: formData.get('fullName')?.trim(),
       attendance: formData.get('attendance'),
-      companions: formData.get('companions')?.trim() || "Ninguno",
+      companions: "Invitación personal (Sin acompañantes)",
       dietary: dietaryList.join(', ') || "Ninguna",
       busRequired: formData.get('busRequired') || "No especificado",
       songRequest: formData.get('songRequest')?.trim() || "-",
@@ -116,7 +103,6 @@ function initFormInteractions() {
       if (isSuccess) {
         showToast(`✨ ¡Gracias ${payload.fullName}! Tu respuesta se ha guardado correctamente.`);
         rsvpForm.reset();
-        companionsGroup.style.display = 'block'; // reset default view
       } else {
         showToast("⚠️ Hubo un pequeño problema al enviar. Por favor, inténtalo de nuevo.");
       }
