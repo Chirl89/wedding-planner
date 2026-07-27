@@ -75,3 +75,45 @@ Este archivo contiene el directorio actualizado de fincas y complejos en la zona
 * **Ubicación y Distancia:** Plaza del Palacio, 1, Oropesa. A ~32 km de Talavera (25 min).
 * **Teléfono:** 925 430 000 | **Email:** oropesa@parador.es | **Web:** [paradores.es](https://paradores.es/es/parador-de-oropesa)
 * **Precio Est. por Comensal:** **110€ – 145€ / persona**.
+
+---
+
+## 📋 Guía y Checklist de Preguntas para la Visita a Fincas
+
+Llevad esta lista de preguntas en el móvil o impresa el día que vayáis a visitar cada espacio para no dejar ningún detalle al azar.
+
+### 1. 🕒 Exclusividad y Horarios
+- [ ] **¿La finca es en exclusiva para nuestra boda** o se pueden celebrar otros eventos en paralelo en zonas colindantes?
+- [ ] **¿Cuál es la hora límite para la música y la barra libre?**
+- [ ] ¿A qué hora pueden acceder los proveedores (florista, fotógrafo, novios) para prepararse?
+- [ ] ¿Hay límite de decibelios en el exterior para el DJ o banda en directo?
+
+### 2. 🌧️ Plan B y Climatización (Especial Octubre)
+- [ ] **¿Cuál es el Plan B exacto en caso de lluvia o viento en octubre?** ¿Se traslada a salón cerrado o carpa?
+- [ ] **¿El montaje del Plan B tiene algún coste adicional?**
+- [ ] ¿El banquete o el baile se realizan en espacio climatizado (calefacción/aire acondicionado)?
+- [ ] ¿Disponen de estufas/setas de calor para la zona de cóctel al atardecer?
+
+### 3. 💶 Precios, Tasas y Letra Pequeña
+- [ ] **¿El precio del menú incluye el alquiler del espacio (canon de finca)** o se cobra un importe fijo aparte?
+- [ ] **¿Los precios llevan el IVA incluido?** *(Recordad: 10% en banquete/restauración, 21% en alquiler de finca, DJ o servicios)*.
+- [ ] **¿Existe canon de exclusividad si llevamos nuestros propios proveedores** (fotógrafo, DJ, florista, cortador de jamón, videógrafo)?
+- [ ] **¿Cuántas horas de barra libre están incluidas?** ¿Cuánto cuesta cada hora extra por persona o en tarifa plana?
+- [ ] ¿Cuál es la política de pagos y cancelaciones (señal inicial, plazos, pago final)?
+
+### 4. 🍽️ Banquete, Menú y Recena
+- [ ] ¿La cocina es propia en la finca o se realiza mediante catering externo especializado?
+- [ ] **¿Se incluye la prueba de menú?** ¿Para cuántas personas (ej. novios + 2 o 4 acompañantes)?
+- [ ] ¿Tienen flexibilidad para menús infantiles y dietas especiales (celíacos, veganos, alérgenos) sin suplemento?
+- [ ] **¿Qué opciones de recena ofrecen** (mini hamburguesas, churros con chocolate, pizzas, mesa dulce) y cómo se tarifica?
+
+### 5. 🏡 Logística, Alojamiento y Accesibilidad
+- [ ] **¿Incluye habitación/suite para los novios** para la noche de bodas o para cambiarse antes de la ceremonia?
+- [ ] ¿Disponen de alojamientos para invitados o convenios con hoteles cercanos en Talavera/Pepino?
+- [ ] **¿Tienen parking amplio** con buen acceso para autobuses grandes de invitados?
+- [ ] ¿Las instalaciones están completamente adaptadas para personas con movilidad reducida o sillas de ruedas?
+
+### 6. 🌸 Decoración y Material Incluido
+- [ ] **¿Qué incluye el menaje estándar?** (Vajilla, cristalería, mantelería, iluminación básica, seating plan).
+- [ ] ¿Ofrecen megafonía y microfonía inalámbrica para la ceremonia civil simbólica en el jardín?
+
