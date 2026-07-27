@@ -66,7 +66,7 @@ body {
   text-align: center;
   padding: 3rem 1.5rem;
   background: linear-gradient(rgba(44, 37, 35, 0.35), rgba(92, 29, 40, 0.5)),
-              url('portada.jpg') center 25%/cover no-repeat;
+              url('portada.jpg') center 90%/cover no-repeat;
   color: #ffffff;
 }
 
