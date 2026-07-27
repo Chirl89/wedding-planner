@@ -12,8 +12,8 @@ Este archivo reúne el concepto visual, la temática y las ideas para la boda de
 ---
 
 ## 🏛️ Flujo de la Ceremonia (Confirmado)
-* **Paso 1: Firma Oficial (Civil):** Se realizará durante la semana de la boda en el **Ayuntamiento de Pepino**, en un acto íntimo con padres, padrinos y testigos. Posteriormente se celebrará con una cena familiar.
-* **Paso 2: Ceremonia Simbólica & Celebración:** El día de la boda se organizará una ceremonia simbólica personalizada al aire libre en los jardines de la finca, seguida por el cóctel, banquete y fiesta con los 80-100 invitados.
+* **Paso 1: Firma Oficial (Civil):** Evento privado e íntimo previo con familiares y padrinos.
+* **Paso 2: Ceremonia & Celebración (Boda Principal):** Ceremonia al aire libre en jardines, cóctel, banquete y fiesta con todos los invitados.
 
 ---
 
